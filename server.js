@@ -32,7 +32,7 @@ const GOALSCORERS = {
 
 app.use(cors());
 
-app.listen(process.env.PORT || PORT, () => {
+app.listen((process.env.PORT || PORT), () => {
     console.log(`Server started in the PORT ${PORT}`);
 });
 
